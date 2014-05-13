@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		94C9B6C019227EBC00ACF2F3 /* TEMPLATE_PROJECT_NAMEAnalysis */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94C9B6C319227EBC00ACF2F3 /* Build configuration list for PBXAggregateTarget "TEMPLATE_PROJECT_NAMEAnalysis" */;
+			buildPhases = (
+				94C9B6C419227ED400ACF2F3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TEMPLATE_PROJECT_NAMEAnalysis;
+			productName = TEMPLATE_PROJECT_NAMEAnalysis;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		88AFBCB709B14DA9B806816F /* libPods-TEMPLATE_PROJECT_NAMETests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE5A36142704DEA8FB5F366 /* libPods-TEMPLATE_PROJECT_NAMETests.a */; };
 		94C9B56419220B2600ACF2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B56319220B2600ACF2F3 /* Foundation.framework */; };
@@ -122,12 +136,12 @@
 		94C9B6A0192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME */ = {
 			isa = PBXGroup;
 			children = (
+				94C9B6A9192237FC00ACF2F3 /* Sources */,
+				94C9B6A7192237FC00ACF2F3 /* Images.xcassets */,
 				94C9B6A1192237FC00ACF2F3 /* Main_iPad.storyboard */,
 				94C9B6A3192237FC00ACF2F3 /* Main_iPhone.storyboard */,
 				94C9B6A5192237FC00ACF2F3 /* InfoPlist.strings */,
-				94C9B6A7192237FC00ACF2F3 /* Images.xcassets */,
 				94C9B6A8192237FC00ACF2F3 /* main.m */,
-				94C9B6A9192237FC00ACF2F3 /* Sources */,
 				94C9B6AE192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */,
 				94C9B6AF192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Prefix.pch */,
 			);
@@ -224,6 +238,7 @@
 			targets = (
 				94C9B55F19220B2600ACF2F3 /* TEMPLATE_PROJECT_NAME */,
 				94C9B58319220B2600ACF2F3 /* TEMPLATE_PROJECT_NAMETests */,
+				94C9B6C019227EBC00ACF2F3 /* TEMPLATE_PROJECT_NAMEAnalysis */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +281,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../vendor/Pods/Pods-TEMPLATE_PROJECT_NAMETests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C9B6C419227ED400ACF2F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "iosbuildutils-runsonar";
 			showEnvVarsInLog = 0;
 		};
 		B72B777B801943679134E7C6 /* Check Pods Manifest.lock */ = {
@@ -490,6 +519,20 @@
 			};
 			name = Release;
 		};
+		94C9B6C119227EBC00ACF2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C9B6C219227EBC00ACF2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +559,15 @@
 			buildConfigurations = (
 				94C9B59919220B2600ACF2F3 /* Debug */,
 				94C9B59A19220B2600ACF2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C9B6C319227EBC00ACF2F3 /* Build configuration list for PBXAggregateTarget "TEMPLATE_PROJECT_NAMEAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C9B6C119227EBC00ACF2F3 /* Debug */,
+				94C9B6C219227EBC00ACF2F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
