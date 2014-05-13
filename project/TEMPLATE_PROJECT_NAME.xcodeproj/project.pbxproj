@@ -28,17 +28,15 @@
 		94C9B58619220B2600ACF2F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B58519220B2600ACF2F3 /* XCTest.framework */; };
 		94C9B58719220B2600ACF2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B56319220B2600ACF2F3 /* Foundation.framework */; };
 		94C9B58819220B2600ACF2F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B56719220B2600ACF2F3 /* UIKit.framework */; };
-		94C9B6B0192237FC00ACF2F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A1192237FC00ACF2F3 /* Main_iPad.storyboard */; };
-		94C9B6B1192237FC00ACF2F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A3192237FC00ACF2F3 /* Main_iPhone.storyboard */; };
 		94C9B6B2192237FC00ACF2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A5192237FC00ACF2F3 /* InfoPlist.strings */; };
 		94C9B6B3192237FC00ACF2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A7192237FC00ACF2F3 /* Images.xcassets */; };
 		94C9B6B4192237FC00ACF2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6A8192237FC00ACF2F3 /* main.m */; };
 		94C9B6B5192237FC00ACF2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6AB192237FC00ACF2F3 /* AppDelegate.m */; };
 		94C9B6B6192237FC00ACF2F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6AD192237FC00ACF2F3 /* ViewController.m */; };
-		94C9B6B7192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6AE192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */; };
 		94C9B6BD1922380700ACF2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6B91922380700ACF2F3 /* InfoPlist.strings */; };
-		94C9B6BE1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6BB1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */; };
 		94C9B6BF1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6BC1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */; };
+		94C9B6C51922860B00ACF2F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A1192237FC00ACF2F3 /* Main_iPad.storyboard */; };
+		94C9B6C61922861100ACF2F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A3192237FC00ACF2F3 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,11 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C9B6B1192237FC00ACF2F3 /* Main_iPhone.storyboard in Resources */,
+				94C9B6C61922861100ACF2F3 /* Main_iPhone.storyboard in Resources */,
+				94C9B6C51922860B00ACF2F3 /* Main_iPad.storyboard in Resources */,
 				94C9B6B3192237FC00ACF2F3 /* Images.xcassets in Resources */,
-				94C9B6B7192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist in Resources */,
 				94C9B6B2192237FC00ACF2F3 /* InfoPlist.strings in Resources */,
-				94C9B6B0192237FC00ACF2F3 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C9B6BD1922380700ACF2F3 /* InfoPlist.strings in Resources */,
-				94C9B6BE1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
