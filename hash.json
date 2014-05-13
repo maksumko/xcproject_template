@@ -1,0 +1,21 @@
+{	
+	"gitignore":
+	{
+		"ignore_pods":true
+	},
+	
+	"podfile":
+	{
+		"ios":"6.0",
+		"test":
+		{
+			"ocmock":true
+		}
+	},
+	
+	"sonar":
+	{
+		"projectVersion":"0.1",
+		"projectKey":"ios-TEMPLATE_PROJECT_NAME"
+	}
+}
