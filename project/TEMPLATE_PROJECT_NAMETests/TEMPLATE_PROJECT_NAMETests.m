@@ -1,0 +1,34 @@
+//
+//  TEMPLATE_PROJECT_NAMETests.m
+//  TEMPLATE_PROJECT_NAMETests
+//
+//  Created by maxim.k on 5/13/14.
+//  Copyright (c) 2014 TEMPLATE_ORG_NAME. All rights reserved.
+//
+
+#import <XCTest/XCTest.h>
+
+@interface TEMPLATE_PROJECT_NAMETests : XCTestCase
+
+@end
+
+@implementation TEMPLATE_PROJECT_NAMETests
+
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample
+{
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+@end

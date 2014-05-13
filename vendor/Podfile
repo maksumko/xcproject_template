@@ -1,0 +1,8 @@
+platform :ios, '6.0'
+
+xcodeproj '../project/TEMPLATE_PROJECT_NAME'
+workspace '../TEMPLATE_PROJECT_NAME.xcworkspace'
+
+target :TEMPLATE_PROJECT_NAMETests do
+  pod 'OCMock', '~> 2.0.1'
+end
