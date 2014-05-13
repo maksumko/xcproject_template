@@ -14,17 +14,17 @@
 		94C9B58619220B2600ACF2F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B58519220B2600ACF2F3 /* XCTest.framework */; };
 		94C9B58719220B2600ACF2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B56319220B2600ACF2F3 /* Foundation.framework */; };
 		94C9B58819220B2600ACF2F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C9B56719220B2600ACF2F3 /* UIKit.framework */; };
-		94C9B5D219221F0700ACF2F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B5BB19221F0700ACF2F3 /* Main_iPad.storyboard */; };
-		94C9B5D319221F0700ACF2F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B5BD19221F0700ACF2F3 /* Main_iPhone.storyboard */; };
-		94C9B5D419221F0700ACF2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B5BF19221F0700ACF2F3 /* InfoPlist.strings */; };
-		94C9B5D519221F0700ACF2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B5C119221F0700ACF2F3 /* Images.xcassets */; };
-		94C9B5D619221F0700ACF2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B5C219221F0700ACF2F3 /* main.m */; };
-		94C9B5D719221F0700ACF2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B5C519221F0700ACF2F3 /* AppDelegate.m */; };
-		94C9B5D819221F0700ACF2F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B5C719221F0700ACF2F3 /* ViewController.m */; };
-		94C9B5D919221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B5C819221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */; };
-		94C9B67A19221F4F00ACF2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B67619221F4F00ACF2F3 /* InfoPlist.strings */; };
-		94C9B67B19221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B67819221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */; };
-		94C9B67C19221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B67919221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */; };
+		94C9B6B0192237FC00ACF2F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A1192237FC00ACF2F3 /* Main_iPad.storyboard */; };
+		94C9B6B1192237FC00ACF2F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A3192237FC00ACF2F3 /* Main_iPhone.storyboard */; };
+		94C9B6B2192237FC00ACF2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A5192237FC00ACF2F3 /* InfoPlist.strings */; };
+		94C9B6B3192237FC00ACF2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6A7192237FC00ACF2F3 /* Images.xcassets */; };
+		94C9B6B4192237FC00ACF2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6A8192237FC00ACF2F3 /* main.m */; };
+		94C9B6B5192237FC00ACF2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6AB192237FC00ACF2F3 /* AppDelegate.m */; };
+		94C9B6B6192237FC00ACF2F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6AD192237FC00ACF2F3 /* ViewController.m */; };
+		94C9B6B7192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6AE192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */; };
+		94C9B6BD1922380700ACF2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6B91922380700ACF2F3 /* InfoPlist.strings */; };
+		94C9B6BE1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C9B6BB1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */; };
+		94C9B6BF1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9B6BC1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,20 +46,20 @@
 		94C9B56719220B2600ACF2F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94C9B58419220B2600ACF2F3 /* TEMPLATE_PROJECT_NAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEMPLATE_PROJECT_NAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C9B58519220B2600ACF2F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		94C9B5BC19221F0700ACF2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		94C9B5BE19221F0700ACF2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		94C9B5C019221F0700ACF2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		94C9B5C119221F0700ACF2F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		94C9B5C219221F0700ACF2F3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		94C9B5C419221F0700ACF2F3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		94C9B5C519221F0700ACF2F3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94C9B5C619221F0700ACF2F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		94C9B5C719221F0700ACF2F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		94C9B5C819221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TEMPLATE_PROJECT_NAME-Info.plist"; sourceTree = "<group>"; };
-		94C9B5C919221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPLATE_PROJECT_NAME-Prefix.pch"; sourceTree = "<group>"; };
-		94C9B67719221F4F00ACF2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		94C9B67819221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TEMPLATE_PROJECT_NAMETests-Info.plist"; sourceTree = "<group>"; };
-		94C9B67919221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEMPLATE_PROJECT_NAMETests.m; sourceTree = "<group>"; };
+		94C9B6A2192237FC00ACF2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		94C9B6A4192237FC00ACF2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		94C9B6A6192237FC00ACF2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C9B6A7192237FC00ACF2F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94C9B6A8192237FC00ACF2F3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94C9B6AA192237FC00ACF2F3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94C9B6AB192237FC00ACF2F3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94C9B6AC192237FC00ACF2F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94C9B6AD192237FC00ACF2F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94C9B6AE192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TEMPLATE_PROJECT_NAME-Info.plist"; sourceTree = "<group>"; };
+		94C9B6AF192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPLATE_PROJECT_NAME-Prefix.pch"; sourceTree = "<group>"; };
+		94C9B6BA1922380700ACF2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C9B6BB1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TEMPLATE_PROJECT_NAMETests-Info.plist"; sourceTree = "<group>"; };
+		94C9B6BC1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEMPLATE_PROJECT_NAMETests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,8 @@
 		94C9B55719220B2600ACF2F3 = {
 			isa = PBXGroup;
 			children = (
-				94C9B5B919221F0700ACF2F3 /* project */,
-				94C9B5DD19221F3800ACF2F3 /* vendor */,
-				94C9B67D19221FEB00ACF2F3 /* build */,
+				94C9B6A0192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME */,
+				94C9B6B81922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests */,
 				94C9B56219220B2600ACF2F3 /* Frameworks */,
 				94C9B56119220B2600ACF2F3 /* Products */,
 				1F9C93D11B3E44A2BA815903 /* Pods-TEMPLATE_PROJECT_NAMETests.xcconfig */,
@@ -120,65 +119,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		94C9B5B919221F0700ACF2F3 /* project */ = {
+		94C9B6A0192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME */ = {
 			isa = PBXGroup;
 			children = (
-				94C9B5BA19221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME */,
-				94C9B67519221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests */,
-			);
-			name = project;
-			sourceTree = "<group>";
-		};
-		94C9B5BA19221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME */ = {
-			isa = PBXGroup;
-			children = (
-				94C9B5C319221F0700ACF2F3 /* Sources */,
-				94C9B5C119221F0700ACF2F3 /* Images.xcassets */,
-				94C9B5BB19221F0700ACF2F3 /* Main_iPad.storyboard */,
-				94C9B5BD19221F0700ACF2F3 /* Main_iPhone.storyboard */,
-				94C9B5BF19221F0700ACF2F3 /* InfoPlist.strings */,
-				94C9B5C219221F0700ACF2F3 /* main.m */,
-				94C9B5C819221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */,
-				94C9B5C919221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Prefix.pch */,
+				94C9B6A1192237FC00ACF2F3 /* Main_iPad.storyboard */,
+				94C9B6A3192237FC00ACF2F3 /* Main_iPhone.storyboard */,
+				94C9B6A5192237FC00ACF2F3 /* InfoPlist.strings */,
+				94C9B6A7192237FC00ACF2F3 /* Images.xcassets */,
+				94C9B6A8192237FC00ACF2F3 /* main.m */,
+				94C9B6A9192237FC00ACF2F3 /* Sources */,
+				94C9B6AE192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist */,
+				94C9B6AF192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Prefix.pch */,
 			);
 			path = TEMPLATE_PROJECT_NAME;
 			sourceTree = "<group>";
 		};
-		94C9B5C319221F0700ACF2F3 /* Sources */ = {
+		94C9B6A9192237FC00ACF2F3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				94C9B5C419221F0700ACF2F3 /* AppDelegate.h */,
-				94C9B5C519221F0700ACF2F3 /* AppDelegate.m */,
-				94C9B5C619221F0700ACF2F3 /* ViewController.h */,
-				94C9B5C719221F0700ACF2F3 /* ViewController.m */,
+				94C9B6AA192237FC00ACF2F3 /* AppDelegate.h */,
+				94C9B6AB192237FC00ACF2F3 /* AppDelegate.m */,
+				94C9B6AC192237FC00ACF2F3 /* ViewController.h */,
+				94C9B6AD192237FC00ACF2F3 /* ViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		94C9B5DD19221F3800ACF2F3 /* vendor */ = {
+		94C9B6B81922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = vendor;
-			path = ../vendor;
-			sourceTree = "<group>";
-		};
-		94C9B67519221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests */ = {
-			isa = PBXGroup;
-			children = (
-				94C9B67619221F4F00ACF2F3 /* InfoPlist.strings */,
-				94C9B67819221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */,
-				94C9B67919221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */,
+				94C9B6B91922380700ACF2F3 /* InfoPlist.strings */,
+				94C9B6BB1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist */,
+				94C9B6BC1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m */,
 			);
 			path = TEMPLATE_PROJECT_NAMETests;
-			sourceTree = "<group>";
-		};
-		94C9B67D19221FEB00ACF2F3 /* build */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = build;
-			path = ../build;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,11 +233,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C9B5D519221F0700ACF2F3 /* Images.xcassets in Resources */,
-				94C9B5D919221F0700ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist in Resources */,
-				94C9B5D419221F0700ACF2F3 /* InfoPlist.strings in Resources */,
-				94C9B5D219221F0700ACF2F3 /* Main_iPad.storyboard in Resources */,
-				94C9B5D319221F0700ACF2F3 /* Main_iPhone.storyboard in Resources */,
+				94C9B6B1192237FC00ACF2F3 /* Main_iPhone.storyboard in Resources */,
+				94C9B6B3192237FC00ACF2F3 /* Images.xcassets in Resources */,
+				94C9B6B7192237FC00ACF2F3 /* TEMPLATE_PROJECT_NAME-Info.plist in Resources */,
+				94C9B6B2192237FC00ACF2F3 /* InfoPlist.strings in Resources */,
+				94C9B6B0192237FC00ACF2F3 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C9B67A19221F4F00ACF2F3 /* InfoPlist.strings in Resources */,
-				94C9B67B19221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist in Resources */,
+				94C9B6BD1922380700ACF2F3 /* InfoPlist.strings in Resources */,
+				94C9B6BE1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C9B5D819221F0700ACF2F3 /* ViewController.m in Sources */,
-				94C9B5D619221F0700ACF2F3 /* main.m in Sources */,
-				94C9B5D719221F0700ACF2F3 /* AppDelegate.m in Sources */,
+				94C9B6B6192237FC00ACF2F3 /* ViewController.m in Sources */,
+				94C9B6B5192237FC00ACF2F3 /* AppDelegate.m in Sources */,
+				94C9B6B4192237FC00ACF2F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C9B67C19221F4F00ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m in Sources */,
+				94C9B6BF1922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,34 +315,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94C9B5BB19221F0700ACF2F3 /* Main_iPad.storyboard */ = {
+		94C9B6A1192237FC00ACF2F3 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94C9B5BC19221F0700ACF2F3 /* Base */,
+				94C9B6A2192237FC00ACF2F3 /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		94C9B5BD19221F0700ACF2F3 /* Main_iPhone.storyboard */ = {
+		94C9B6A3192237FC00ACF2F3 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94C9B5BE19221F0700ACF2F3 /* Base */,
+				94C9B6A4192237FC00ACF2F3 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		94C9B5BF19221F0700ACF2F3 /* InfoPlist.strings */ = {
+		94C9B6A5192237FC00ACF2F3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94C9B5C019221F0700ACF2F3 /* en */,
+				94C9B6A6192237FC00ACF2F3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		94C9B67619221F4F00ACF2F3 /* InfoPlist.strings */ = {
+		94C9B6B91922380700ACF2F3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94C9B67719221F4F00ACF2F3 /* en */,
+				94C9B6BA1922380700ACF2F3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -456,6 +430,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TEMPLATE_PROJECT_NAME/TEMPLATE_PROJECT_NAME-Prefix.pch";
 				INFOPLIST_FILE = "TEMPLATE_PROJECT_NAME/TEMPLATE_PROJECT_NAME-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -469,6 +444,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TEMPLATE_PROJECT_NAME/TEMPLATE_PROJECT_NAME-Prefix.pch";
 				INFOPLIST_FILE = "TEMPLATE_PROJECT_NAME/TEMPLATE_PROJECT_NAME-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

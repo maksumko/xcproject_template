@@ -1,1 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?><Workspace version='1.0'><FileRef location='group:project/TEMPLATE_PROJECT_NAME.xcodeproj'/><FileRef location='group:vendor/Pods/Pods.xcodeproj'/></Workspace>
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:project/TEMPLATE_PROJECT_NAME.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:vendor/Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:build"
+      name = "build">
+   </Group>
+   <Group
+      location = "group:vendor"
+      name = "vendor">
+   </Group>
+</Workspace>
