@@ -216,7 +216,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = TEMPLATE_ORG_NAME;
+				ORGANIZATIONNAME = Ciklum;
 				TargetAttributes = {
 					94C9B58319220B2600ACF2F3 = {
 						TestTargetID = 94C9B55F19220B2600ACF2F3;
