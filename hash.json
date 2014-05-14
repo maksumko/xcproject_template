@@ -1,7 +1,4 @@
 {	
-	"projectVersion":"0.1",
-	"projectKey":"ios-TEMPLATE_PROJECT_NAME",
-	
 	"gitignore":
 	{
 		"ignore_pods":true
@@ -14,6 +11,12 @@
 		{
 			"ocmock":true
 		}
+	},
+	
+	"sonar":
+	{
+		"projectVersion":"0.1",
+		"projectKey":"ios-TEMPLATE_PROJECT_NAME"
 	},
 	
 	"xcproj":
