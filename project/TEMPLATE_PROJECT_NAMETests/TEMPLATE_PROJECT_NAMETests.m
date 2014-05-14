@@ -1,6 +1,5 @@
 //
-//  TEMPLATE_PROJECT_NAMETests.m
-//  TEMPLATE_PROJECT_NAMETests
+//  {{project_name}}Tests.m
 //
 //  Created by maxim.k on 5/13/14.
 //  Copyright (c) 2014 Ciklum. All rights reserved.

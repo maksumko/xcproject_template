@@ -1,2 +1,2 @@
-TEMPLATE_PROJECT_NAME Project
+{{project_name}} Project
 Copyright (c) 2014 Ciklum. All rights reserved.
