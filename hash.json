@@ -17,5 +17,10 @@
 	{
 		"projectVersion":"0.1",
 		"projectKey":"ios-TEMPLATE_PROJECT_NAME"
+	},
+	
+	"xcproj":
+	{
+		"deployment_target":"6.0"
 	}
 }
