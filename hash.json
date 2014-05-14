@@ -1,4 +1,7 @@
 {	
+	"project_name":"TEMPLATE_PROJECT_NAME",
+	"deployment_target":"6.0",
+	
 	"gitignore":
 	{
 		"ignore_pods":true
@@ -6,7 +9,6 @@
 	
 	"podfile":
 	{
-		"ios":"6.0",
 		"test":
 		{
 			"ocmock":true
@@ -15,12 +17,7 @@
 	
 	"sonar":
 	{
-		"projectVersion":"0.1",
-		"projectKey":"ios-TEMPLATE_PROJECT_NAME"
+		"project_version":"0.1",
+		"project_key":"ios-TEMPLATE_PROJECT_NAME"
 	},
-	
-	"xcproj":
-	{
-		"deployment_target":"6.0"
-	}
 }
