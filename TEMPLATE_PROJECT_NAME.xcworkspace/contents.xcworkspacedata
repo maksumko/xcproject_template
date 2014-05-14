@@ -7,12 +7,4 @@
    <FileRef
       location = "group:vendor/Pods/Pods.xcodeproj">
    </FileRef>
-   <Group
-      location = "group:build"
-      name = "build">
-   </Group>
-   <Group
-      location = "group:vendor"
-      name = "vendor">
-   </Group>
 </Workspace>

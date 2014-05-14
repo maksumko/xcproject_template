@@ -50,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F9C93D11B3E44A2BA815903 /* Pods-TEMPLATE_PROJECT_NAMETests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEMPLATE_PROJECT_NAMETests.xcconfig"; path = "../vendor/Pods/Pods-TEMPLATE_PROJECT_NAMETests.xcconfig"; sourceTree = "<group>"; };
 		7FE5A36142704DEA8FB5F366 /* libPods-TEMPLATE_PROJECT_NAMETests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEMPLATE_PROJECT_NAMETests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C9B56019220B2600ACF2F3 /* TEMPLATE_PROJECT_NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEMPLATE_PROJECT_NAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C9B56319220B2600ACF2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,7 +105,6 @@
 				94C9B6B81922380700ACF2F3 /* TEMPLATE_PROJECT_NAMETests */,
 				94C9B56219220B2600ACF2F3 /* Frameworks */,
 				94C9B56119220B2600ACF2F3 /* Products */,
-				1F9C93D11B3E44A2BA815903 /* Pods-TEMPLATE_PROJECT_NAMETests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
