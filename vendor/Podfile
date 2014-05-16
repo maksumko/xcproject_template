@@ -14,5 +14,5 @@ target :{{project_name}}Tests do
 	pod 'OCMock'
 	{{/ocmock}}
 end
-{{#test}}
+{{/test}}
 {{/podfile}}
